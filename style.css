@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+.navbar .logo:hover { 
+    color: greenyellow;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: orangered;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: blue;
+}
+.info h3{
+ font-size: 18px;
+ letter-spacing: 1px;
+ line-height: 24px;
+}
+.info span {
+    color: rgb(rgb(26, 26, 235));
+}
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px;
+    padding: 10px,18px;
+    border-radius: 10 px;
+    display: inline-block;
+}
+.info a:hover{
+    background: burlywood;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 200%;
+    left: 20%;
+    transform: translate(-55);
+    bottom: -10%;
+    transition: left 2s ease;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+}
+.icons ion-icon:{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4 ease;
+
+}
+.icons ion-icon:hover{
+    color: red;}
+    
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+   .CV P{
+font-size: large;
+   }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+    .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+      
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+  }
+  
+  .skill {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .skill-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+  }
+  
+  .skill-fill {
+    background: blue;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  
+  .skill-percent {
+    font-size: 30px;
+  }
+  
+  .html {
+    animation: html 2s;
+    width: 50%;
+  }
+  
+  .css {
+    animation: css 2s;
+    width: 80%;
+  }
+  
+  .js {
+    animation: js 2s;
+    width: 70%;
+  }
+  
+  @keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  
+  @keyframes css {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes js {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .skills-area {
+      padding: 0 5%;
+    }
+  }
